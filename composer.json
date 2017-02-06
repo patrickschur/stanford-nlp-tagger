@@ -1,0 +1,25 @@
+{
+  "name": "patrickschur/stanford-nlp-tagger",
+  "type": "library",
+  "description": "PHP wrapper for the Stanford Natural Language Processing library. Supports POSTagger and CRFClassifier.",
+  "keywords": ["natural-language-processing", "nlp", "wrapper", "pos", "language", "tagger", "classifier", "ner"],
+  "homepage": "https://github.com/patrickschur/stanford-nlp-tagger",
+  "license": "MIT",
+  "minimum-stability": "stable",
+  "prefer-stable": true,
+  "authors": [
+    {
+      "name": "Patrick Schur",
+      "email": "patrick_schur@outlook.de"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "StanfordTagger\\": "src/StanfordTagger"
+    }
+  },
+  "require": {
+    "php": "^7",
+    "patrickschur/language-detection": "^3"
+  }
+}
