@@ -92,7 +92,7 @@ $pos->setJarArchive(__DIR__ . '/stanford-postagger-full-2016-10-31/stanford-post
 
 ### Example
 ```php
-$ner = new \StanfordTagger\POSTagger();
+$ner = new \StanfordTagger\CRFClassifier();
  
 $ner->tag('Albert Einstein was a theoretical physicist born in Germany.');
 ```
