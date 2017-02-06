@@ -98,8 +98,6 @@ class CRFClassifier extends StanfordTagger
             }
         }
 
-        $tmpf = $this->getTmpFile($str);
-
         $cmd = escapeshellcmd(
             $this->getJavaPath()
             . ' -mx' . $this->getMaxMemoryUsage()
@@ -108,8 +106,6 @@ class CRFClassifier extends StanfordTagger
             . ' -textFile ' . $this->getTmpFile($str)
             . ' -outputFormat ' . $this->getOutputFormat()
         );
-
-        echo $cmd, PHP_EOL;
 
         $descriptorspec = [
             0 => ["pipe", "r"],

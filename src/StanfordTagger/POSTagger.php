@@ -105,8 +105,6 @@ class POSTagger extends StanfordTagger
             }
         }
 
-        $tmpf = $this->getTmpFile($str);
-
         $cmd = escapeshellcmd(
             $this->getJavaPath()
             . ' -mx' . $this->getMaxMemoryUsage()
@@ -116,8 +114,6 @@ class POSTagger extends StanfordTagger
             . ' -outputFormat ' . $this->getOutputFormat()
             . ' -tagSeparator ' . $this->getSeparator()
         );
-
-        echo $cmd, PHP_EOL;
 
         $descriptorspec = [
             0 => ["pipe", "r"],
