@@ -23,7 +23,7 @@ $ composer require patrickschur/stanford-nlp-tagger
 or [here](https://nlp.stanford.edu/software/stanford-postagger-full-2017-06-09.zip) for Arabic, Chinese, French, Spanish, and German.
 - Extract the (**.zip**) package into your directory. (Please do not rename the packages, only if you want to add this packages manually.)
 
-```text
+```php
 $pos = new \StanfordTagger\POSTagger();
  
 $pos->tag('My dog also likes eating sausage.');
