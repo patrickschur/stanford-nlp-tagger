@@ -17,6 +17,8 @@ abstract class StanfordTagger
     const OUTPUT_FORMAT_SLASH_TAGS = 2;
 
     const OUTPUT_FORMAT_XML = 4;
+    
+    const OUTPUT_FORMAT_INLINE_XML = 5;
 
     /**
      * @var string Maximum memory usage in Megabytes ("m") or Gigabytes ("g")
@@ -65,6 +67,9 @@ abstract class StanfordTagger
                 break;
             case self::OUTPUT_FORMAT_XML:
                 $this->format = 'xml';
+                break;
+            case self::OUTPUT_FORMAT_INLINE_XML:
+                $this->format = 'inlineXML';
                 break;
             default:
                 throw new \InvalidArgumentException('Wrong output format!');
