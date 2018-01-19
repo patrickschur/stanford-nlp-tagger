@@ -1,7 +1,7 @@
 # stanford-nlp-tagger
 [![Version](https://img.shields.io/packagist/v/patrickschur/stanford-nlp-tagger.svg?style=flat-square)](https://packagist.org/packages/patrickschur/stanford-nlp-tagger)
 [![Total Downloads](https://img.shields.io/packagist/dt/patrickschur/stanford-nlp-tagger.svg?style=flat-square)](https://packagist.org/packages/patrickschur/stanford-nlp-tagger)
-[![Maintenance](https://img.shields.io/maintenance/yes/2017.svg?style=flat-square)](https://github.com/patrickschur/stanford-nlp-tagger) 
+[![Maintenance](https://img.shields.io/maintenance/yes/2018.svg?style=flat-square)](https://github.com/patrickschur/stanford-nlp-tagger) 
 [![Minimum PHP Version](https://img.shields.io/badge/php-%3E%3D%207.0-4AC51C.svg?style=flat-square)](http://php.net/)
 [![License](https://img.shields.io/packagist/l/patrickschur/stanford-nlp-tagger.svg?style=flat-square)](https://opensource.org/licenses/MIT)
 
