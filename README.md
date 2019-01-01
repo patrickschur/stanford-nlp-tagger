@@ -18,8 +18,8 @@ $ composer require patrickschur/stanford-nlp-tagger
 ```
 
 ### Example
-- Download the required packages for the POSTagger [here](https://nlp.stanford.edu/software/stanford-postagger-2017-06-09.zip) for English only 
-or [here](https://nlp.stanford.edu/software/stanford-postagger-full-2017-06-09.zip) for Arabic, Chinese, French, Spanish, and German.
+- Download the required packages for the POSTagger [here](https://nlp.stanford.edu/software/stanford-postagger-2018-10-16.zip) for English only 
+or [here](https://nlp.stanford.edu/software/stanford-postagger-full-2018-10-16.zip) for Arabic, Chinese, French, Spanish, and German.
 - Extract the (**.zip**) package into your directory. (Please do not rename the packages, only if you want to add this packages manually.)
 
 ```php
@@ -76,17 +76,17 @@ All packages are loaded automatically but if you want to change that you can set
 ```php
 $pos = new \StanfordTagger\POSTagger();
  
-$pos->setModel(__DIR__ . '/stanford-postagger-full-2017-06-09/models/english-bidirectional-distsim.tagger');
+$pos->setModel(__DIR__ . '/stanford-postagger-full-2018-10-16/models/english-bidirectional-distsim.tagger');
  
-$pos->setJarArchive(__DIR__ . '/stanford-postagger-full-2017-06-09/stanford-postagger.jar');
+$pos->setJarArchive(__DIR__ . '/stanford-postagger-full-2018-10-16/stanford-postagger.jar');
 ```
 
 ## CRFClassifier
-- For English only, download the required packages for the CRFClassifier [here](https://nlp.stanford.edu/software/stanford-ner-2017-06-09.zip).
+- For English only, download the required packages for the CRFClassifier [here](https://nlp.stanford.edu/software/stanford-ner-2018-10-16.zip).
 - You have to download the language models separately:
-    - [German models](https://nlp.stanford.edu/software/stanford-german-corenlp-2017-06-09-models.jar)
-    - [Spanish models](https://nlp.stanford.edu/software/stanford-spanish-corenlp-2017-06-09-models.jar)
-    - [Chinese models](https://nlp.stanford.edu/software/stanford-chinese-corenlp-2017-06-09-models.jar)
+    - [German models](https://nlp.stanford.edu/software/stanford-german-corenlp-2018-10-05-models.jar)
+    - [Spanish models](https://nlp.stanford.edu/software/stanford-spanish-corenlp-2018-10-05-models.jar)
+    - [Chinese models](https://nlp.stanford.edu/software/stanford-chinese-corenlp-2018-10-05-models.jar)
 - Extract the (**.jar**) files if you downloaded a language model and add them into your directory.
 
 ### Example
