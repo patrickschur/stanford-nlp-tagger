@@ -55,7 +55,7 @@ abstract class StanfordTagger
         return $this->java;
     }
 
-    public function setOutputFormat(string $format)
+    public function setOutputFormat(int $format)
     {
         switch ($format)
         {
