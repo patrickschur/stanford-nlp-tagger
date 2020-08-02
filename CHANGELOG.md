@@ -1,6 +1,11 @@
 # Change Log
 All notable changes to this project will be documented in this file.
 
+## [0.3.0] - 2020-08-02
+### Changed
+- Updated `setOutputFormat` method (Thanks to @williamlewis1996)
+- Updated sources
+
 ## [0.2.0] - 2017-08-21
 ### Added
 - Added format `inlineXML` (Thanks to @daemonfire300)
